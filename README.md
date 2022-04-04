@@ -1,5 +1,5 @@
 # Prediction Tajikistan local currency
-# :open_file_folder: Dataset
+## :open_file_folder: Dataset
 
 The dataset used is the [National Bank of Tajikistan](https://nbt.tj/ru/kurs/kurs.php) rate of USD/TJS dataset. This dataset contains rate of currencies data from 2001 to 2022 sampled everyday. I decided to resample the dataset with monthly frequency for both easier data handling and proximity to a real use case scenario (no one would build a model to predict polution 10 minutes ahead, 1 day ahead looks more realistic). In this case the series is already stationary with some small seasonalities which change every year #MORE ONTHIS
 

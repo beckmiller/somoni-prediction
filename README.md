@@ -10,7 +10,10 @@ The dataset used is the [National Bank of Tajikistan](https://nbt.tj/ru/kurs/kur
 * Holt-Winters ExponentialSmoothing ([HWE](https://www.statsmodels.org/dev/generated/statsmodels.tsa.holtwinters.ExponentialSmoothing.html))
 * Seasonal autoregressive integrated moving average ([SARIMAX](https://www.statsmodels.org/dev/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.html))
 
-## Evaluation Metrics
+## :mag: Forecasting results
+We will devide our results wether the extra features columns such as temperature or preassure were used by the model as this is a huge step in metrics and represents two different scenarios. Metrics used were:
+
+### Evaluation Metrics
 * Root Mean Squared Error (RMSE)
 
 <table class="table table-bordered table-hover table-condensed">

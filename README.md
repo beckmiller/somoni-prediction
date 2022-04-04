@@ -6,5 +6,5 @@ The dataset used is the [National Bank of Tajikistan](https://nbt.tj/ru/kurs/kur
 This is the time series analysis of Tajikistan local currency somoni (TJS). Here I used several famous predictions models such as Holt-Winters, ARIMA, SARIMAX and etc. Also tried to compare each other.
 ## :triangular_ruler: Models tested
 
-* Autoregressive integraded moving average ([ARIMA](https://www.statsmodels.org/devel/generated/statsmodels.tsa.arima.model.ARIMA.html))
-* Seasonal autoregressive integrated moving average (SARIMA)
+* Holt-Winters ExponentialSmoothing ([HWE](https://www.statsmodels.org/dev/generated/statsmodels.tsa.holtwinters.ExponentialSmoothing.html))
+* Seasonal autoregressive integrated moving average ([SARIMAX](https://www.statsmodels.org/dev/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.html))

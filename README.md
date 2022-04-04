@@ -24,3 +24,7 @@ We will devide our results wether the extra features columns such as temperature
 <td>SARIMAX</td>
 <td align="right">0.48</td>
 </tr>
+<tr>
+<td>Holt-Winters</td>
+<td align="right">0.41</td>
+</tr>

@@ -9,3 +9,15 @@ The dataset used is the [National Bank of Tajikistan](https://nbt.tj/ru/kurs/kur
 
 * Holt-Winters ExponentialSmoothing ([HWE](https://www.statsmodels.org/dev/generated/statsmodels.tsa.holtwinters.ExponentialSmoothing.html))
 * Seasonal autoregressive integrated moving average ([SARIMAX](https://www.statsmodels.org/dev/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.html))
+
+## Evaluation Metrics
+* Root Mean Squared Error (RMSE)
+
+<table class="table table-bordered table-hover table-condensed">
+<thead><tr><th title="Field #1">Model</th>
+<th title="Field #3">rmse</th>
+</tr></thead>
+<tbody><tr>
+<td>SARIMAX</td>
+<td align="right">0.48</td>
+</tr>

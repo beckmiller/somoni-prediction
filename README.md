@@ -21,7 +21,7 @@ We will devide our results wether the extra features columns such as temperature
 <th title="Field #3">rmse</th>
 </tr></thead>
 <tbody><tr>
-<td>SARIMAX</td>
+<td>SARIMA</td>
 <td align="right">0.48</td>
 </tr>
 <tr>

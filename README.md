@@ -3,15 +3,15 @@ This is the time series analysis of Tajikistan local currency somoni (TJS). Here
 
 ## :open_file_folder: Dataset
 
-The dataset used is the [National Bank of Tajikistan](https://nbt.tj/ru/kurs/kurs.php) rate of USD/TJS dataset. This dataset contains rate of currencies data from 2001 to 2022 sampled everyday. I decided to resample the dataset with monthly frequency for both easier data handling and proximity to a real use case scenario (because NBT raises rate monthly, quaterly, semi-annually). In this case the series is not stationary with some small seasonalities(cyclic) which change every year(quaterly).
+The dataset used is the [National Bank of Tajikistan](https://nbt.tj/ru/kurs/kurs.php) rate of USD/TJS dataset. This dataset contains rate of currencies data from 2001 to 2022 sampled everyday. I decided to resample the dataset with monthly frequency for both easier data handling and proximity to a real use case scenario (because NBT raises rate monthly, quaterly, semi-annually). In this case the series is not stationary with some small seasonalities(seasonal) which change every year(quaterly).
 
 ## :triangular_ruler: Models tested
 
 * Holt-Winters ExponentialSmoothing ([HWE](https://www.statsmodels.org/dev/generated/statsmodels.tsa.holtwinters.ExponentialSmoothing.html))
-* Seasonal autoregressive integrated moving average ([SARIMAX](https://www.statsmodels.org/dev/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.html))
+* Seasonal autoregressive integrated moving average ([SARIMA](https://www.statsmodels.org/dev/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.html))
 
 ## :mag: Forecasting results
-We will devide our results wether the extra features columns such as temperature or preassure were used by the model as this is a huge step in metrics and represents two different scenarios. Metrics used were:
+:
 
 ### Evaluation Metrics
 * Root Mean Squared Error (RMSE)
@@ -21,8 +21,8 @@ We will devide our results wether the extra features columns such as temperature
 <th title="Field #3">rmse</th>
 </tr></thead>
 <tbody><tr>
-<td>SARIMAX</td>
-<td align="right">0.48</td>
+<td>SARIMA</td>
+<td align="right">0.43</td>
 </tr>
 <tr>
 <td>Holt-Winters</td>

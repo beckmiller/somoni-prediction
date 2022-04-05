@@ -19,12 +19,15 @@ The dataset used is the [National Bank of Tajikistan](https://nbt.tj/ru/kurs/kur
 <table class="table table-bordered table-hover table-condensed">
 <thead><tr><th title="Field #1">Model</th>
 <th title="Field #3">rmse</th>
+<th title="Field #3">mape</th>
 </tr></thead>
 <tbody><tr>
 <td>SARIMA</td>
-<td align="right">0.43</td>
+<td align="right">0.48</td>
+<td align="right">0.04</td> 
 </tr>
 <tr>
 <td>Holt-Winters</td>
 <td align="right">0.41</td>
+<td align="right">0.03</td> 
 </tr>
